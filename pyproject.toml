@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sql-bd"
+version = "0.1.0"
+description = ""
+authors = ["Evgenius87 <plotnikov.evgenij@ukr.net>"]
+readme = "README.md"
+packages = [{include = "sql_bd"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.6"
+faker = "^18.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
